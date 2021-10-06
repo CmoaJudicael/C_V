@@ -3,7 +3,7 @@ body
     background-color: lightcyan;
     color: black;
     padding: 5% 5%;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 h1
 {
@@ -22,6 +22,7 @@ img
     margin: 5px;
     width: 15%;
     height: 15%;
+    border-radius: 50%;
 }
 header
 {
@@ -32,6 +33,7 @@ header
     align-content: center;
     align-items: center;
     justify-content: space-between;
+    margin: 2% 0%;
 }
 .content_flex
 {
@@ -39,6 +41,8 @@ header
     flex-direction: row;
     height: auto;
     justify-content:space-between   ;
+    background-color: ivory;
+    margin: 2%;
     
 }
 .Title_flex
@@ -54,13 +58,14 @@ article
 a
 {
     text-decoration: none;
-    color: black;
+    color: coral;
 }
-a :hover
+a:hover
 {
     
     background-color: darkcyan;
     color: coral;
+    border-radius: 25%;
 }
 h3
 {
