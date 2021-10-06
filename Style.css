@@ -1,0 +1,76 @@
+body
+{
+    background-color: lightcyan;
+    color: black;
+    padding: 5% 5%;
+    font-size: 2vw;
+}
+h1
+{
+    color: ivory;
+    font-size: 3vw;
+    margin: 2%;
+}
+h2
+{
+    font-size: 2vw;
+    color: darkgray;
+}
+img
+{
+    margin: 5px;
+    width: 15%;
+    height: 15%;
+}
+header
+{
+    background-image: url(img/informatique.jpg);
+    background-size: 100%;
+    text-align: right;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.content_flex
+{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content:space-between   ;
+    
+}
+.Title_flex
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+article
+{
+    margin: 2%;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+a :hover
+{
+    
+    background-color: darkcyan;
+    color: coral;
+}
+h3
+{
+    font-size: 1.5vw;
+}
+.Competence, .Coordonnées
+{
+    width: 35%;
+}
+.Parcours, .Experience
+{
+    width: 65%;
+}
+
