@@ -34,6 +34,8 @@ header
     align-items: center;
     justify-content: space-between;
     margin: 2% 0%;
+    text-shadow: lightcoral 5px 3px 2px;
+    transition: all 4s;
 }
 .content_flex
 {
@@ -42,7 +44,7 @@ header
     height: auto;
     justify-content:space-between   ;
     background-color: ivory;
-    margin: 2%;
+    margin: 2% 0%;
     
 }
 .Title_flex
@@ -83,4 +85,5 @@ h3
 .Content_travail
 {
     font-weight: bold;
+    margin: 2% 0%;
 }   
